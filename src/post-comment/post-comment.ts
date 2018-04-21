@@ -1,6 +1,7 @@
-export class PostNick{
+export class Comment{
     constructor(
         public nick:string,
-        public comment:string
+        public text:string,
+        public date:Date
     ){}
 }
